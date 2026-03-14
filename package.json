@@ -1,0 +1,13 @@
+{
+  "name": "9cc-mqtt-worker",
+  "version": "1.0.0",
+  "main": "worker.js",
+  "scripts": {
+    "start": "node worker.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "mqtt": "^5.14.1",
+    "pg": "^8.16.3"
+  }
+}
